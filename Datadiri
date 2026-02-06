@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website.Home</title>
+   <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+
+    nav {
+        background-color: #ffffff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #000;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    hr {
+        border: 1px solid #ddd;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #ffffff;
+    }
+
+    header img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    header h1 {
+        margin: 10px 0 5px;
+        font-size: 24px;
+    }
+
+    header p {
+        margin: 0;
+        font-size: 14px;
+        color: #555;
+    }
+
+    article {
+        max-width: 700px;
+        margin: 20px auto;
+        padding: 15px;
+        background-color: #ffffff;
+    }
+
+    article h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .skills {
+        max-width: 700px;
+        margin: 20px auto;
+        padding: 15px;
+        background-color: #ffffff;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+
+    th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #eeeeee;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #ffffff;
+        font-size: 13px;
+        color: #555;
+    }
+</style>
+
+</head>
+<body>
+    <nav>
+        <a href="Data Diri.html">Home</a> |
+        <a href="cvra.html">CV</a> |
+        <a href="kontak.html">Contact</a> |
+        <a href="me.html">About me</a> |
+    </nav>
+
+    <hr />
+
+    <header>
+        <img src="WhatsApp Image 2026-01-30 at 14.38.02.jpeg" width="300" height="300"/>
+        <h1>Wirasatya</h1>
+        <p>(Pelajar)</p>
+    </header>
+
+    <hr />
+
+    <article>
+        <h2>Overview</h2>
+        <p>
+            Hai, saya adalah seorang pelajar yang tinggal di Denpasar,
+            Saya bersekolah di SMK BALI DEWATA jurusan PPLG. Saya adalah seorang pelajar yang memiliki minat besar dalam belajar
+             coding dan teknologi. Saat ini saya sedang mempelajari dasar-dasar pemrograman seperti HTML dan CSS, serta berusaha 
+             memahami bagaimana sebuah website dibuat dan dikembangkan. Melalui proses belajar ini, saya berharap dapat meningkatkan
+              keterampilan saya di bidang teknologi dan mempersiapkan diri untuk masa depan, khususnya dalam dunia pengembangan website.
+    </article>  
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kemampuan/Skill</th>
+                    <th>Pengalaman</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>HTML (Beginer)</li>
+                            <li>CSS (Beginer)</li>
+                            <li>CPP (Beginer)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>Content Creator</ul>
+                        <ul>Belajar Membuat Wesite</ul>
+                        <ul>Web Developer</ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div> 
+
+    <hr>
+    <footer>
+        <p>Copyright &copy; 2026 wirasatya</p>
+    </footer>
+</body>
+</html>
